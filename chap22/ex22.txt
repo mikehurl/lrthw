@@ -1,0 +1,145 @@
+List of words and symbols used in Exercise 1 through to Exercise 21:
+
+ruby - v
+    Tells me what version of Ruby is installed
+    
+irb
+    Interactive Ruby shell used to run Ruby code in the command line
+
+.rb
+    File extension for Ruby code files
+
+puts
+    Prints string to the output and adds a new line automatically
+
+ruby *.rb
+    The instruction to run a piece of Ruby code saved in an .rb file
+
+#
+    Hash. Used to 'comment' in an .rb file, either to explain code or disable a section of code
+
+"*" or '*'
+    Double quotes/singles quotes. Not including the asterisk, used to create strings
+    
++
+    Plus. Used for addition (whether adding e.g. two numbers together; or to join two strings together etc)
+
+-
+    Minus. Used for subtraction
+
+* 
+    Asterisk. Used for multiplication, or as a wildcard
+
+/
+    Slash. Used for division, also seen in filepaths
+
+%
+    Percent. Modulo - gives the remainder if a division sum results in a remainder
+
+<
+    Comparing, less than
+
+<=
+    Comparing, less than or equal to
+
+>
+    Comparing, greater than
+
+>=
+    Comparing, greater than or equal to
+
+#{}
+    Can be used for calculations within a string, or can be used for formattting with a variable inside brackets, value of the variable will be printed
+
+float
+    Rather than a whole number, a number using decimal notation
+
+=
+    Assigns a value to a variable
+
+true/false
+    Boolean operators showing the result of a calculation/code etc e.g. does this file exist; is 5 less than 7
+
+print
+    Like puts, will output something, but unlike puts, will not automatically add a new line
+
+%{}
+    Like #{} but for multiple values with the same interpolation
+
+\n
+    Will create a new line
+
+\ 
+    Used to 'escape' characters - used to print characters that are hard to do so otherwise
+
+\\ 
+    Will print a \ character
+
+\' 
+    Will print a single quote (generally used in strings using double quotes to create said string)
+
+\" 
+    As above but double quotes
+
+\t
+    Tabs the string
+
+gets.chomp
+    Takes the input from the user (get string) and removes the 'ENTER' that was typed - can be assigned to variable, printed to output etc
+
+.to_i
+    Changes value to an integer (instead of a string) so can be used in calculations
+
+.to_f
+    Changes value to an integer with decimal notation
+
+ARGV
+    Argument Variable. Takes an argument/arguments (input) from command line and assigns it to a variable/variables
+
+$stdin.gets.chomp
+    Like gets.chomp, but used when ARGV is included in code
+
+open()
+    Opens an existing file, either named directly within the parentheses or assigned to a variable where the variable is contained within the parentheses
+
+.read
+    Reads the opened file
+
+close()
+    Closes the open file, opposite of open() basically
+
+readline
+    Read one line of the file
+
+truncate
+    Deletes the contents of the file
+
+write()
+    Writes whatever is in the parentheses to the file
+
+open(argument, 'w')
+    Adding 'w' opens the file in write mode and writes from beginning of file after truncating it
+
+.exist?
+    Checks if the file exists and returns a boolean result (true/false)
+
+echo "" filename
+    Will create a file containing what is contained within the quotes
+
+cat
+    Concatenate. Will print the contents of a file or join two files together
+
+def method ()
+    Defines a method (piece of code) and can take none or more arguments from the parentheses
+
+end
+    Used to show the end of the defined method
+
+.seek()
+    Goes to a given location in a file
+
++=
+    Shorthand for e.g. variable = variable + something becomes variable += something
+
+return
+    Returns a value from the code and stops the method
